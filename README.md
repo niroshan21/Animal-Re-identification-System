@@ -6,7 +6,7 @@ The **Animal Re-Identification System** is designed to re-identify cows based on
 ## Features
 - **Cow Registration**: Owners can register their cows using a Google Form.
 - **Descriptor Database**: Cow features are stored in a database for re-identification.
-- **Automated Email Notifications**: Automatic emails are sent to owners with a reference number upon registration.(Wu use google scripts for this)
+- **Automated Email Notifications**: Automatic emails are sent to owners with a reference number upon registration.(We use [google app scripts]() for this)
 - **Efficient Matching**: Utilizes the MegaDescriptor model for accurate re-identification.
 
 ## Algorithm
