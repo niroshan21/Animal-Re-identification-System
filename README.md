@@ -16,7 +16,26 @@ The **Animal Re-Identification System** is designed to re-identify cows based on
 2. **Descriptor Database**: We can add cow's feature description data into the descriptor database using the reference code.
 3. **Re-Identification**: The numpy array uses stored data to re-identify cows based on their unique features.
 
+Here’s the **Libraries and Dependencies** section in code-friendly markdown format:
+
 ## Libraries and Dependencies
-To access Google Sheets and send emails, install the following libraries:
-```bash
-pip install gspread oauth2client
+
+To set up and run this project, install the following libraries:
+- **timm**: For loading and utilizing the pre-trained deep learning model for animal re-identification.
+- **numpy**: For numerical operations, such as averaging feature vectors and saving data.
+- **Pillow**: Python Imaging Library for loading and handling images.
+- **scikit-learn**: Contains the `cosine_similarity` function to compare feature vectors.
+- **gdown**: Allows downloading files from Google Drive for accessing registered cow images.
+- **gspread**: A client for the Google Sheets API to enable reading and writing data to Google Sheets.
+- **oauth2client**: Manages authorization to access Google Sheets via a service account.
+  ```bash
+  pip install timm
+  pip install numpy
+  pip install pillow
+  pip install scikit-learn
+  pip install gdown
+  pip install gspread
+  pip install oauth2client
+  ```
+
+To download the dataset click [here](https://github.com/niroshan21/Animal-Re-identification-System/blob/main/Codes/downloadDatasets.ipynb)
