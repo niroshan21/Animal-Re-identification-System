@@ -16,12 +16,10 @@ The **Animal Re-Identification System** is designed to re-identify cows based on
 2. **Descriptor Database**: We can add cow's feature description data into the descriptor database using the reference code.
 3. **Re-Identification**: The numpy array uses stored data to re-identify cows based on their unique features.
 
-Here’s the **Libraries and Dependencies** section in code-friendly markdown format:
-
 ## Libraries and Dependencies
 
 To set up and run this project, install the following libraries:
-- **timm**: For loading and utilizing the pre-trained deep learning model for animal re-identification.
+- **timm**: For loading and utilizing the deep learning model.
 - **numpy**: For numerical operations, such as averaging feature vectors and saving data.
 - **Pillow**: Python Imaging Library for loading and handling images.
 - **scikit-learn**: Contains the `cosine_similarity` function to compare feature vectors.
