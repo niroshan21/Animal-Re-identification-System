@@ -2,6 +2,7 @@
 
 ## Overview
 The **Animal Re-Identification System** is designed to re-identify cows based on their unique patterns and features. By utilizing the **SIFT (Scale-Invariant Feature Transform)** descriptor and matching methods, this system aims to provide efficient and accurate identification of individual animals. The project employs the **MegaDescriptor** model instead of traditional models like CLIP and DINOv2, ensuring better performance. The Wildlife Toolkit is used for matching descriptors, enhancing the accuracy of the identification process.
+![Project Overview](https://github.com/niroshan21/Animal-Re-identification-System/blob/main/Images/Google%20Form.jpg?raw=true)
 
 ## Features
 - **Cow Registration**: Owners can register their cows using a Google Form.
